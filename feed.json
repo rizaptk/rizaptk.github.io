@@ -1,0 +1,27 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "rizaptk",
+    "description": "",
+    "home_page_url": "https://rizaptk.github.io",
+    "feed_url": "https://rizaptk.github.io/feed.json",
+    "user_comment": "",
+    "author": {
+        "name": "rizaptk"
+    },
+    "items": [
+        {
+            "id": "https://rizaptk.github.io/no-english-no-problem.html",
+            "url": "https://rizaptk.github.io/no-english-no-problem.html",
+            "title": "No English no problem",
+            "summary": " #Google #translate Ndak perlu malu dengan bahasa inggris yang ke arab-araban (ya.. arab maklum). Postingannya juga mungkin ndak terlalu penting untuk orang-orang di seberang sana. Kalaupun ada yang kesasar ke sini -- google translate aja ya, thanks. ",
+            "content_html": "\n  <p>\n    #Google #translate\n  </p>\n\n  <p>\n    Ndak perlu malu dengan bahasa inggris yang ke arab-araban (ya.. arab maklum). Postingannya juga mungkin ndak terlalu penting untuk orang-orang di seberang sana. Kalaupun ada yang kesasar ke sini -- google translate aja ya, thanks.\n  </p>\n\n  <p>\n    \n  </p>",
+            "author": {
+                "name": "rizaptk"
+            },
+            "tags": [
+            ],
+            "date_published": "2021-10-01T01:15:38+07:00",
+            "date_modified": "2021-10-01T01:15:38+07:00"
+        }
+    ]
+}

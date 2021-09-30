@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>rizaptk</title>
+    <link href="https://rizaptk.github.io/feed.xml" rel="self" />
+    <link href="https://rizaptk.github.io" />
+    <updated>2021-10-01T01:15:38+07:00</updated>
+    <author>
+        <name>rizaptk</name>
+    </author>
+    <id>https://rizaptk.github.io</id>
+
+    <entry>
+        <title>No English no problem</title>
+        <author>
+            <name>rizaptk</name>
+        </author>
+        <link href="https://rizaptk.github.io/no-english-no-problem.html"/>
+        <id>https://rizaptk.github.io/no-english-no-problem.html</id>
+
+        <updated>2021-10-01T01:15:38+07:00</updated>
+            <summary>
+                <![CDATA[
+                     #Google #translate Ndak perlu malu dengan bahasa inggris yang ke arab-araban (ya.. arab maklum). Postingannya juga mungkin ndak terlalu penting untuk orang-orang di seberang sana. Kalaupun ada yang kesasar ke sini -- google translate aja ya, thanks. 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    #Google #translate
+  </p>
+
+  <p>
+    Ndak perlu malu dengan bahasa inggris yang ke arab-araban (ya.. arab maklum). Postingannya juga mungkin ndak terlalu penting untuk orang-orang di seberang sana. Kalaupun ada yang kesasar ke sini -- google translate aja ya, thanks.
+  </p>
+
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+</feed>
