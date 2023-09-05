@@ -1,8 +1,4 @@
 [
-    {
-        "id_jurusan": 1,
-        "nama_jurusan": "Pendidikan MIPA",
-        "prodi": [
             {
                 "id_prodi": 1,
                 "nama_prodi": "Pendidikan Kimia"
@@ -22,13 +18,7 @@
             {
                 "id_prodi": 22,
                 "nama_prodi": "S2 Pendidikan Matematika"
-            }
-        ]
-    },
-    {
-        "id_jurusan": 2,
-        "nama_jurusan": "Ilmu Pendidikan",
-        "prodi": [
+            },
             {
                 "id_prodi": 6,
                 "nama_prodi": "Pendidikan Guru PAUD"
@@ -44,14 +34,9 @@
             {
                 "id_prodi": 25,
                 "nama_prodi": "S2 Teknologi Pendidikan"
-            }
-        ]
-    },
-    {
-        "id_jurusan": 3,
-        "nama_jurusan": "Pendidikan Bahasa dan Seni",
-        "prodi": [
-            {
+            },
+    
+           {
                 "id_prodi": 8,
                 "nama_prodi": "Pendidikan Bahasa Indonesia"
             },
@@ -78,13 +63,7 @@
             {
                 "id_prodi": 31,
                 "nama_prodi": "S2 Pendidikan Bahasa Inggris"
-            }
-        ]
-    },
-    {
-        "id_jurusan": 4,
-        "nama_jurusan": "Pendidikan Ilmu-Ilmu Sosial",
-        "prodi": [
+            },
             {
                 "id_prodi": 12,
                 "nama_prodi": "Pendidikan Ekonomi"
@@ -116,13 +95,7 @@
             {
                 "id_prodi": 33,
                 "nama_prodi": "S2 Pendidikan Sosiologi"
-            }
-        ]
-    },
-    {
-        "id_jurusan": 5,
-        "nama_jurusan": "Pendidikan Dasar",
-        "prodi": [
+            },
             {
                 "id_prodi": 18,
                 "nama_prodi": "Pendidikan Guru SD"
@@ -130,13 +103,7 @@
             {
                 "id_prodi": 32,
                 "nama_prodi": "S2 Pendidikan Guru SD"
-            }
-        ]
-    },
-    {
-        "id_jurusan": 6,
-        "nama_jurusan": "Ilmu Keolahragaan",
-        "prodi": [
+            },
             {
                 "id_prodi": 19,
                 "nama_prodi": "Pendidikan Jasmani"
@@ -145,6 +112,4 @@
                 "id_prodi": 20,
                 "nama_prodi": "Pendidikan Kepelatihan Olahraga"
             }
-        ]
-    }
 ]
