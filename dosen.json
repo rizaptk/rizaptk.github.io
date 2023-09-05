@@ -1,1 +1,150 @@
-[]
+[
+    {
+        "id_jurusan": 1,
+        "nama_jurusan": "Pendidikan MIPA",
+        "prodi": [
+            {
+                "id_prodi": 1,
+                "nama_prodi": "Pendidikan Kimia"
+            },
+            {
+                "id_prodi": 2,
+                "nama_prodi": "Pendidikan Fisika"
+            },
+            {
+                "id_prodi": 4,
+                "nama_prodi": "Pendidikan Biologi"
+            },
+            {
+                "id_prodi": 5,
+                "nama_prodi": "Pendidikan Matematika"
+            },
+            {
+                "id_prodi": 22,
+                "nama_prodi": "S2 Pendidikan Matematika"
+            }
+        ]
+    },
+    {
+        "id_jurusan": 2,
+        "nama_jurusan": "Ilmu Pendidikan",
+        "prodi": [
+            {
+                "id_prodi": 6,
+                "nama_prodi": "Pendidikan Guru PAUD"
+            },
+            {
+                "id_prodi": 7,
+                "nama_prodi": "Bimbingan Konseling"
+            },
+            {
+                "id_prodi": 24,
+                "nama_prodi": "S2 Administrasi Pendidikan"
+            },
+            {
+                "id_prodi": 25,
+                "nama_prodi": "S2 Teknologi Pendidikan"
+            }
+        ]
+    },
+    {
+        "id_jurusan": 3,
+        "nama_jurusan": "Pendidikan Bahasa dan Seni",
+        "prodi": [
+            {
+                "id_prodi": 8,
+                "nama_prodi": "Pendidikan Bahasa Indonesia"
+            },
+            {
+                "id_prodi": 9,
+                "nama_prodi": "Pendidikan Bahasa Inggris"
+            },
+            {
+                "id_prodi": 10,
+                "nama_prodi": "Pendidikan Bahasa Mandarin"
+            },
+            {
+                "id_prodi": 11,
+                "nama_prodi": "D3-Perpustakaan"
+            },
+            {
+                "id_prodi": 21,
+                "nama_prodi": "Pendidikan Seni Pertunjukan"
+            },
+            {
+                "id_prodi": 23,
+                "nama_prodi": "S2 Pendidikan Bahasa Indonesia"
+            },
+            {
+                "id_prodi": 31,
+                "nama_prodi": "S2 Pendidikan Bahasa Inggris"
+            }
+        ]
+    },
+    {
+        "id_jurusan": 4,
+        "nama_jurusan": "Pendidikan Ilmu-Ilmu Sosial",
+        "prodi": [
+            {
+                "id_prodi": 12,
+                "nama_prodi": "Pendidikan Ekonomi"
+            },
+            {
+                "id_prodi": 13,
+                "nama_prodi": "Pendidikan Sosiologi"
+            },
+            {
+                "id_prodi": 14,
+                "nama_prodi": "Pendidikan PKn"
+            },
+            {
+                "id_prodi": 15,
+                "nama_prodi": "Pendidikan Geografi"
+            },
+            {
+                "id_prodi": 16,
+                "nama_prodi": "Pendidikan IPS"
+            },
+            {
+                "id_prodi": 17,
+                "nama_prodi": "Pendidikan Sejarah"
+            },
+            {
+                "id_prodi": 26,
+                "nama_prodi": "S2 Pendidikan Ekonomi"
+            },
+            {
+                "id_prodi": 33,
+                "nama_prodi": "S2 Pendidikan Sosiologi"
+            }
+        ]
+    },
+    {
+        "id_jurusan": 5,
+        "nama_jurusan": "Pendidikan Dasar",
+        "prodi": [
+            {
+                "id_prodi": 18,
+                "nama_prodi": "Pendidikan Guru SD"
+            },
+            {
+                "id_prodi": 32,
+                "nama_prodi": "S2 Pendidikan Guru SD"
+            }
+        ]
+    },
+    {
+        "id_jurusan": 6,
+        "nama_jurusan": "Ilmu Keolahragaan",
+        "prodi": [
+            {
+                "id_prodi": 19,
+                "nama_prodi": "Pendidikan Jasmani"
+            },
+            {
+                "id_prodi": 20,
+                "nama_prodi": "Pendidikan Kepelatihan Olahraga"
+            }
+        ]
+    }
+]
