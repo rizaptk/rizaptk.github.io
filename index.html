@@ -10,6 +10,9 @@
 <meta property="og:url" content="https://rizaptk.github.io/">
 <meta property="og:type" content="website">
 <link rel="canonical" href="https://rizaptk.github.io/">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d1117'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle' fill='%237ee787' font-family='sans-serif' font-weight='bold'%3Er%3C/text%3E%3C/svg%3E">
+<meta property="og:image" content="https://rizaptk.github.io/og-image.png">
+<meta name="twitter:card" content="summary_large_image">
 <style>
 :root{
   --bg:#0d1117;
@@ -45,6 +48,8 @@ header .links a{font-size:.95rem}
 .project .name{font-weight:600;color:var(--text)}
 .project .name .arrow{color:var(--accent)}
 .project .desc{font-size:.92rem;color:var(--muted);margin-top:.15rem}
+.project.featured{border-color:var(--accent)}
+.badge{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:.1rem .5rem;vertical-align:middle}
 .plain{
   display:inline-block;border:1px dashed var(--border);border-radius:8px;
   padding:1rem 1.15rem;margin:0 .5rem .75rem 0;font-size:.92rem;color:var(--muted);background:var(--surface);
@@ -87,6 +92,11 @@ footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;col
 
   <section style="margin-top:2.5rem">
     <h2>Projects</h2>
+
+    <a class="project featured" href="https://github.com/rizaptk/tokocepat-dist">
+      <div class="name">TokoCepat <span class="badge">Featured</span> <span class="arrow">↗</span></div>
+      <div class="desc">High-performance offline-first POS for Windows & Android tablets — Tauri v2, FireLite embedded DB, P2P mesh sync over LAN. (Release repo, code private.)</div>
+    </a>
 
     <h3>Libraries & releases</h3>
     <a class="project" href="https://github.com/rizaptk/libfirelite">
