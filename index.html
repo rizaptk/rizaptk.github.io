@@ -50,6 +50,14 @@ header .links a{font-size:.95rem}
 .project .desc{font-size:.92rem;color:var(--muted);margin-top:.15rem}
 .project.featured{border-color:var(--accent)}
 .badge{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:.1rem .5rem;vertical-align:middle}
+.project img.shot{display:block;width:100%;border-radius:6px;border:1px solid var(--border);margin-bottom:.65rem;background:var(--bg)}
+.sublink{font-size:.85rem;color:var(--muted);margin:-.35rem 0 1.2rem}
+header .now{margin-top:.3rem;font-size:.92rem;display:flex;align-items:center;gap:.45rem}
+header .now::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0}
+.timeline ul{list-style:none}
+.timeline li{position:relative;padding-left:1.1rem;margin-bottom:.55rem;font-size:.95rem;color:var(--muted)}
+.timeline li::before{content:'';position:absolute;left:0;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
+.timeline b{color:var(--text);font-weight:600}
 .plain{
   display:inline-block;border:1px dashed var(--border);border-radius:8px;
   padding:1rem 1.15rem;margin:0 .5rem .75rem 0;font-size:.92rem;color:var(--muted);background:var(--surface);
@@ -64,7 +72,8 @@ footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;col
 
   <header>
     <h1>rizaptk</h1>
-    <p>Full-stack Developer</p>
+    <p>Full-stack Developer · Pontianak, Indonesia</p>
+    <p class="now">Now: FireLite · Kastoko & TokoCepat · AI agents</p>
     <div class="links">
       <a href="https://github.com/rizaptk" rel="me">github.com/rizaptk</a>
     </div>
@@ -73,6 +82,16 @@ footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;col
   <section class="about" style="margin-top:3rem">
     <h2>About</h2>
     <p>Full-stack developer working across the stack — from an embedded document database (FireLite) to desktop apps (Tauri) and web platforms for education. Mostly JavaScript and Pascal, with a PHP past.</p>
+    <p style="margin-top:.6rem">offline-first apps · embedded databases · dev tooling · education tech</p>
+  </section>
+
+  <section class="timeline" style="margin-top:2rem">
+    <h2>Background</h2>
+    <ul>
+      <li><b>Now</b> — Rust, Tauri & FireLite: embedded document DBs, offline-first POS, AI-agent tooling</li>
+      <li><b>Education tech</b> — full-stack web platforms for FKIP Untan & chemistry learning (ChemBS, Silangkau, ScholaSync, FirePressExpress)</li>
+      <li><b>Before</b> — PHP backends, Angular & React frontends</li>
+    </ul>
   </section>
 
   <section style="margin-top:2.5rem">
@@ -95,10 +114,17 @@ footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;col
   <section style="margin-top:2.5rem">
     <h2>Projects</h2>
 
-    <a class="project featured" href="https://github.com/rizaptk/tokocepat-dist">
-      <div class="name">TokoCepat <span class="badge">Featured</span> <span class="arrow">↗</span></div>
-      <div class="desc">High-performance offline-first POS for Windows & Android tablets — Tauri v2, FireLite embedded DB, P2P mesh sync over LAN. (Release repo, code private.)</div>
+    <a class="project featured" href="https://kastoko.vercel.app/">
+      <img class="shot" src="assets/kastoko.png" alt="Kastoko POS app screenshot" loading="lazy">
+      <div class="name">Kastoko <span class="badge">Featured</span> <span class="arrow">↗</span></div>
+      <div class="desc">Offline-first POS app for Windows desktop — the complete variant, up to cloud sync. Tauri v2, FireLite embedded DB.</div>
     </a>
+    <a class="project featured" href="https://tokocepat-pos.web.app/">
+      <img class="shot" src="assets/tokocepat.webp" alt="TokoCepat POS app screenshot" loading="lazy">
+      <div class="name">TokoCepat <span class="badge">Featured</span> <span class="arrow">↗</span></div>
+      <div class="desc">Offline-first POS app for desktop & Android — the simpler variant, LAN net-sync only. Same codebase as Kastoko.</div>
+    </a>
+    <p class="sublink">App releases: <a href="https://github.com/rizaptk/tokocepat-dist">github.com/rizaptk/tokocepat-dist</a> · CI: <a href="https://github.com/rizaptk/kastoko-updates">github.com/rizaptk/kastoko-updates</a></p>
 
     <h3>Libraries & releases</h3>
     <a class="project" href="https://github.com/rizaptk/libfirelite">
@@ -111,15 +137,17 @@ footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;col
     </a>
     <a class="project" href="https://github.com/rizaptk/kastoko-updates">
       <div class="name">kastoko-updates <span class="arrow">↗</span></div>
-      <div class="desc">CI release channel for tokocepat-tauri, powered by FireLite.</div>
+      <div class="desc">CI release channel for Kastoko (Windows desktop), powered by FireLite.</div>
     </a>
 
     <h3>Live apps</h3>
     <a class="project" href="https://scholasync-kappa.vercel.app">
+      <img class="shot" src="assets/scholasync.png" alt="ScholaSync app screenshot" loading="lazy">
       <div class="name">ScholaSync <span class="arrow">↗</span></div>
       <div class="desc">App with Rethink-Firestore backend (private code).</div>
     </a>
     <a class="project" href="https://blog.chemedu.site">
+      <img class="shot" src="assets/firepressexpress.png" alt="FirePressExpress app screenshot" loading="lazy">
       <div class="name">FirePressExpress <span class="arrow">↗</span></div>
       <div class="desc">Publishing app with Rethink-Firestore backend (private code).</div>
     </a>
@@ -130,10 +158,12 @@ footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;col
 
     <h3>Older work</h3>
     <a class="project" href="https://app.chemedu.site">
+      <img class="shot" src="assets/chembs.png" alt="ChemBS app screenshot" loading="lazy">
       <div class="name">ChemBS <span class="arrow">↗</span></div>
       <div class="desc">Chemistry education app, chemserver backend (pre-AI era).</div>
     </a>
     <a class="project" href="https://silangkau.fkip.untan.ac.id">
+      <img class="shot" src="assets/silangkau.png" alt="Silangkau site screenshot" loading="lazy">
       <div class="name">Silangkau <span class="arrow">↗</span></div>
       <div class="desc">Academic site for FKIP Untan (pre-AI era).</div>
     </a>
