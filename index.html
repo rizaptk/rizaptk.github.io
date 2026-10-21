@@ -1,178 +1,179 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>rizaptk — Full-stack Developer</title>
-<meta name="description" content="rizaptk — full-stack developer. Embedded document databases, desktop apps, and web platforms for education.">
-<meta property="og:title" content="rizaptk — Full-stack Developer">
-<meta property="og:description" content="Embedded document databases, desktop apps, and web platforms for education.">
-<meta property="og:url" content="https://rizaptk.github.io/">
-<meta property="og:type" content="website">
-<link rel="canonical" href="https://rizaptk.github.io/">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230d1117'/%3E%3Ctext x='50' y='70' font-size='62' text-anchor='middle' fill='%237ee787' font-family='sans-serif' font-weight='bold'%3Er%3C/text%3E%3C/svg%3E">
-<meta property="og:image" content="https://rizaptk.github.io/og-image.png">
-<meta name="twitter:card" content="summary_large_image">
-<style>
-:root{
-  --bg:#0d1117;
-  --surface:#161b22;
-  --border:#2d333b;
-  --text:#e6edf3;
-  --muted:#8b949e;
-  --accent:#7ee787;
-}
-*{margin:0;padding:0;box-sizing:border-box}
-html{scroll-behavior:smooth}
-body{
-  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Arial,sans-serif;
-  background:var(--bg);color:var(--text);line-height:1.6;
-}
-.container{max-width:720px;margin:0 auto;padding:4rem 1.5rem 3rem}
-a{color:var(--accent);text-decoration:none}
-a:hover{text-decoration:underline}
-h2{font-size:1.25rem;margin-bottom:1.25rem;letter-spacing:-.01em}
-h3{font-size:.85rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin:2rem 0 1rem}
-header p{color:var(--muted);font-size:1.05rem;margin-top:.35rem}
-header .links{margin-top:1rem}
-header .links a{font-size:.95rem}
-.about p{color:var(--muted)}
-.chips{display:flex;flex-wrap:wrap;gap:.5rem}
-.chips span{border:1px solid var(--border);border-radius:999px;padding:.25rem .8rem;font-size:.85rem;color:var(--muted);background:var(--surface)}
-.project{
-  display:block;border:1px solid var(--border);border-radius:8px;
-  padding:1rem 1.15rem;margin-bottom:.75rem;background:var(--surface);
-  transition:border-color .15s ease;
-}
-.project:hover{border-color:var(--accent);text-decoration:none}
-.project .name{font-weight:600;color:var(--text)}
-.project .name .arrow{color:var(--accent)}
-.project .desc{font-size:.92rem;color:var(--muted);margin-top:.15rem}
-.project.featured{border-color:var(--accent)}
-.badge{font-size:.62rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);border:1px solid var(--accent);border-radius:999px;padding:.1rem .5rem;vertical-align:middle}
-.project img.shot{display:block;width:100%;border-radius:6px;border:1px solid var(--border);margin-bottom:.65rem;background:var(--bg)}
-.sublink{font-size:.85rem;color:var(--muted);margin:-.35rem 0 1.2rem}
-header .now{margin-top:.3rem;font-size:.92rem;display:flex;align-items:center;gap:.45rem}
-header .now::before{content:'';width:6px;height:6px;border-radius:50%;background:var(--accent);flex-shrink:0}
-.timeline ul{list-style:none}
-.timeline li{position:relative;padding-left:1.1rem;margin-bottom:.55rem;font-size:.95rem;color:var(--muted)}
-.timeline li::before{content:'';position:absolute;left:0;top:.55em;width:6px;height:6px;border-radius:50%;background:var(--accent)}
-.timeline b{color:var(--text);font-weight:600}
-.plain{
-  display:inline-block;border:1px dashed var(--border);border-radius:8px;
-  padding:1rem 1.15rem;margin:0 .5rem .75rem 0;font-size:.92rem;color:var(--muted);background:var(--surface);
-}
-.plain b{color:var(--text);font-weight:600}
-footer{border-top:1px solid var(--border);margin-top:3rem;padding-top:1.5rem;color:var(--muted);font-size:.9rem}
-@media(max-width:480px){.container{padding:2.5rem 1.25rem 2rem}}
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>rizaptk — software developer</title>
+  <meta name="description" content="Software developer from Pontianak, Indonesia. Embedded databases, local-first apps, and developer tooling.">
+  <meta property="og:title" content="rizaptk — software developer">
+  <meta property="og:description" content="Embedded databases, local-first apps, and developer tooling.">
+  <meta property="og:url" content="https://rizaptk.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://rizaptk.github.io/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="canonical" href="https://rizaptk.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='18' fill='%230f172a'/%3E%3Ctext x='50' y='72' font-size='62' text-anchor='middle' fill='%234ade80' font-family='sans-serif' font-weight='bold'%3Er%3C/text%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
+  <a class="skip" href="#main">Skip to content</a>
 
-  <header>
-    <h1>rizaptk</h1>
-    <p>Full-stack Developer · Pontianak, Indonesia</p>
-    <p class="now">Now: HakoDB · Kastoko & TokoCepat · AI agents</p>
-    <div class="links">
-      <a href="https://github.com/rizaptk" rel="me">github.com/rizaptk</a>
-    </div>
-  </header>
+  <div class="wrap" id="main">
 
-  <section class="about" style="margin-top:3rem">
-    <h2>About</h2>
-    <p>Full-stack developer working across the stack — from an embedded document database (HakoDB) to desktop apps (Tauri) and web platforms for education. Mostly JavaScript and Pascal, with a PHP past.</p>
-    <p style="margin-top:.6rem">offline-first apps · embedded databases · dev tooling · education tech</p>
-  </section>
+    <header class="hero">
+      <h1>Riza</h1>
+      <p class="role"><b>Software developer</b> in Pontianak, Indonesia. Embedded databases, local-first apps, developer tooling.</p>
+      <p class="now">Now: building HakoDB, an embedded document database in Rust.</p>
+      <ul class="social">
+        <li><a href="https://github.com/rizaptk" aria-label="GitHub"><img src="https://cdn.simpleicons.org/github/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+        <li><a href="https://x.com/rizaptk" aria-label="X (Twitter)"><img src="https://cdn.simpleicons.org/x/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+        <li><a href="https://www.instagram.com/longija" aria-label="Instagram"><img src="https://cdn.simpleicons.org/instagram/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+        <li><a href="https://www.facebook.com/rizapontianak" aria-label="Facebook"><img src="https://cdn.simpleicons.org/facebook/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+      </ul>
+    </header>
 
-  <section class="timeline" style="margin-top:2rem">
-    <h2>Background</h2>
-    <ul>
-      <li><b>Now</b> — Rust, Tauri & HakoDB: embedded document DBs, offline-first POS, AI-agent tooling</li>
-      <li><b>Education tech</b> — full-stack web platforms for FKIP Untan & chemistry learning (ChemBS, Silangkau, ScholaSync, FirePressExpress)</li>
-      <li><b>Before</b> — PHP backends, Angular & React frontends</li>
-    </ul>
-  </section>
+    <section class="stats">
+      <dl>
+        <div><dt>50k+</dt><dd>ops/sec under load</dd></div>
+        <div><dt>42</dt><dd>releases on crates.io</dd></div>
+        <div><dt>6</dt><dd>language SDKs</dd></div>
+        <div><dt>15</dt><dd>repos in the org</dd></div>
+        <div><dt>0</dt><dd>services to deploy</dd></div>
+      </dl>
+    </section>
 
-  <section style="margin-top:2.5rem">
-    <h2>Skills</h2>
-    <div class="chips">
-      <span>JavaScript</span>
-      <span>TypeScript</span>
-      <span>Pascal</span>
-      <span>PHP</span>
-      <span>Rust</span>
-      <span>Tauri</span>
-      <span>Angular</span>
-      <span>React</span>
-      <span>SQLite</span>
-      <span>RethinkDB</span>
-      <span>Full-stack</span>
-    </div>
-  </section>
+    <section class="engine">
+      <h2>The engine</h2>
+      <p class="lead">HakoDB is my embedded document database in Rust. It runs inside the app, like SQLite: no server, no daemon. Open a file, ship it. I built the hard parts in: vector search, graph traversal, serializable transactions, ChaCha20-Poly1305 encryption at rest. And a flat C ABI underneath, so any language can embed it.</p>
+      <ul class="claims">
+        <li><b>Fluent queries</b> filters, cursors, projections, aggregates, indexes built in the background.</li>
+        <li><b>Vector + graph</b> HNSW nearest-neighbor, BFS and weighted Dijkstra over document references.</li>
+        <li><b>Zero-copy reads</b> about 18× faster on deeply nested documents.</li>
+      </ul>
+      <figure class="code">
+<pre><code>let db = Hako::open("./data", HakoConfig::default())?;
+db.put("users", "alice", &amp;doc)?;
 
-  <section style="margin-top:2.5rem">
-    <h2>Projects</h2>
+let found = db.query(
+    Query::new("users").where_filter("age", Operator::Gte, 18.into()),
+)?;</code></pre>
+        <figcaption>
+          <img src="https://cdn.simpleicons.org/rust/4ade80" alt="" width="13" height="13" loading="lazy">
+          <span><a href="https://crates.io/crates/hakodb">hakodb on crates.io</a></span>
+          <span class="extra"><a href="https://hakodb.github.io/">docs and downloads</a></span>
+        </figcaption>
+      </figure>
+    </section>
 
-    <a class="project featured" href="https://kastoko.vercel.app/">
-      <img class="shot" src="assets/kastoko.png" alt="Kastoko POS app screenshot" loading="lazy">
-      <div class="name">Kastoko <span class="badge">Featured</span> <span class="arrow">↗</span></div>
-      <div class="desc">Offline-first POS app for Windows desktop — the complete variant, up to cloud sync. Tauri v2, HakoDB embedded DB.</div>
-    </a>
-    <a class="project featured" href="https://tokocepat-pos.web.app/">
-      <img class="shot" src="assets/tokocepat.webp" alt="TokoCepat POS app screenshot" loading="lazy">
-      <div class="name">TokoCepat <span class="badge">Featured</span> <span class="arrow">↗</span></div>
-      <div class="desc">Offline-first POS app for desktop & Android — the simpler variant, LAN net-sync only. Same codebase as Kastoko.</div>
-    </a>
-    <p class="sublink">App releases: <a href="https://github.com/rizaptk/tokocepat-dist">github.com/rizaptk/tokocepat-dist</a> · CI: <a href="https://github.com/rizaptk/kastoko-updates">github.com/rizaptk/kastoko-updates</a></p>
+    <section class="sync">
+      <h2>Sync when you need it</h2>
+      <p class="lead">Local-first by default; replication is opt-in. Two planes, pick per deployment.</p>
+      <div class="syncviz">
+        <div class="tabs" role="group" aria-label="Sync mode">
+          <button class="tab is-on" data-mode="mesh" aria-pressed="true">Mesh over LAN</button>
+          <button class="tab" data-mode="hub" aria-pressed="false">Hub in the cloud</button>
+        </div>
+        <svg class="net" viewBox="0 0 480 210" aria-label="Replication diagram">
+          <g class="m is-on" data-m="mesh">
+            <line x1="80" y1="62" x2="192" y2="40"/>
+            <line x1="192" y1="40" x2="302" y2="72"/>
+            <line x1="80" y1="62" x2="124" y2="142"/>
+            <line x1="192" y1="40" x2="240" y2="128"/>
+            <line x1="302" y1="72" x2="240" y2="128"/>
+            <line x1="124" y1="142" x2="240" y2="128"/>
+            <line x1="240" y1="128" x2="372" y2="118"/>
+            <line x1="302" y1="72" x2="372" y2="118"/>
+            <circle cx="80" cy="62" r="8"/>
+            <circle cx="192" cy="40" r="8"/>
+            <circle cx="302" cy="72" r="8"/>
+            <circle cx="372" cy="118" r="8"/>
+            <circle class="anchor" cx="124" cy="142" r="8"/>
+            <circle cx="240" cy="128" r="8"/>
+            <text x="124" y="172" class="lbl">your app hosts the data</text>
+          </g>
+          <g class="m" data-m="hub">
+            <line x1="60" y1="48" x2="380" y2="105"/>
+            <line x1="60" y1="105" x2="380" y2="105"/>
+            <line x1="60" y1="162" x2="380" y2="105"/>
+            <line x1="150" y1="72" x2="380" y2="105"/>
+            <line x1="150" y1="140" x2="380" y2="105"/>
+            <circle cx="60" cy="48" r="8"/>
+            <circle cx="60" cy="105" r="8"/>
+            <circle cx="60" cy="162" r="8"/>
+            <circle cx="150" cy="72" r="8"/>
+            <circle cx="150" cy="140" r="8"/>
+            <circle class="anchor" cx="380" cy="105" r="10"/>
+            <circle cx="380" cy="105" r="17" class="ring"/>
+            <text x="380" y="152" class="lbl" text-anchor="middle">one replica set per room</text>
+          </g>
+        </svg>
+        <p class="netcap" data-mode="mesh">Peers discover each other with mDNS and replicate WAL deltas behind room keys. No server on the network.</p>
+        <p class="netcap" data-mode="hub" hidden>Offline clients converge through a WebSocket hub that micro-batches writes in 5&nbsp;ms. One replica set per room.</p>
+      </div>
+      <p class="strip">Inside one process, <b>hakocluster</b> fans reads across replicas and routes every write to a single designated writer, with operator-driven failover.</p>
+    </section>
 
-    <h3>Libraries & releases</h3>
-    <a class="project" href="https://hakodb.github.io/">
-      <div class="name">HakoDB <span class="arrow">↗</span></div>
-      <div class="desc">Embedded, Firestore-style document DB in Rust — successor of FireLite: core engine, CLI, cloud server, Tauri bindings, Go/JS/Pascal SDKs, benchmarks.</div>
-    </a>
-    <a class="project" href="https://github.com/rizaptk/firesqlite">
-      <div class="name">firesqlite <span class="arrow">↗</span></div>
-      <div class="desc">Small Firestore-like API backed by wa-sqlite and OPFS — Firestore-style persistence in the browser.</div>
-    </a>
-    <a class="project" href="https://github.com/rizaptk/kastoko-updates">
-      <div class="name">kastoko-updates <span class="arrow">↗</span></div>
-      <div class="desc">CI release channel for Kastoko (Windows desktop), powered by HakoDB.</div>
-    </a>
+    <section class="org">
+      <h2>The org</h2>
+      <p class="lead">One engine, one namespace, fifteen repos, all MIT. These three carry the product.</p>
+      <div class="featured">
+        <article class="feat">
+          <a class="name" href="https://github.com/hakodb/hakodb"><code>hakodb</code></a>
+          <span class="d">The engine itself. In-process document storage with vector and graph search, a flat C ABI, and fair benchmarks against SQLite and Turso.</span>
+          <span class="links"><a href="https://github.com/hakodb/hakodb">github ↗</a><a class="docs" href="https://hakodb.github.io/">docs ↗</a></span>
+        </article>
+        <article class="feat">
+          <a class="name" href="https://github.com/hakodb/hakobackend"><code>hakobackend</code></a>
+          <span class="d">The HTTP gateway. Plug an engine in, get query and sync over plain REST, with a TypeScript client ready to go.</span>
+          <span class="links"><a href="https://github.com/hakodb/hakobackend">github ↗</a><a class="docs" href="https://hakodb.github.io/">docs ↗</a></span>
+        </article>
+        <article class="feat">
+          <a class="name" href="https://github.com/hakodb/hakocloudserver"><code>hakocloudserver</code></a>
+          <span class="d">The sync hub. A standalone cloud server with an admin console: thousands of offline clients converge into one replica set.</span>
+          <span class="links"><a href="https://github.com/hakodb/hakocloudserver">github ↗</a><a class="docs" href="https://hakodb.github.io/">docs ↗</a></span>
+        </article>
+      </div>
+      <p class="strip">Also in the org: <b>hakocli</b>, <b>hakocluster</b>, <b>hakobalancer</b>, <b>hakomcp</b>, the Go, JS, Pascal and Tauri SDKs, and C++ benchmarks. Full documentation lives at <a href="https://hakodb.github.io/">hakodb.github.io</a>.</p>
+    </section>
 
-    <h3>Live apps</h3>
-    <a class="project" href="https://scholasync-kappa.vercel.app">
-      <img class="shot" src="assets/scholasync.png" alt="ScholaSync app screenshot" loading="lazy">
-      <div class="name">ScholaSync <span class="arrow">↗</span></div>
-      <div class="desc">App with Rethink-Firestore backend (private code).</div>
-    </a>
-    <a class="project" href="https://blog.chemedu.site">
-      <img class="shot" src="assets/firepressexpress.png" alt="FirePressExpress app screenshot" loading="lazy">
-      <div class="name">FirePressExpress <span class="arrow">↗</span></div>
-      <div class="desc">Publishing app with Rethink-Firestore backend (private code).</div>
-    </a>
+    <section class="agents">
+      <h2>Agents plug in</h2>
+      <p class="lead">hakomcp speaks the Model Context Protocol over stdio. Collections become resources; queries, vector search and graph traversal become agent tools. A model can run RAG against a local database.</p>
+      <figure class="code">
+<pre><code>{
+  "mcpServers": {
+    "hako": { "command": "hakomcp", "args": ["--db", "./my-data"] }
+  }
+}</code></pre>
+      </figure>
+    </section>
 
-    <h3>Also built</h3>
-    <span class="plain"><b>qordia</b> — no public link</span>
-    <span class="plain"><b>retailpulse</b> — no public link</span>
+    <section class="history">
+      <h2>Background</h2>
+      <p class="lead">Ten years of shipping software, much of it client work kept private.</p>
+      <ul class="track">
+        <li><b>Now</b><span>Agentic workflows and AI tooling, including a private agent project called Hermes.</span></li>
+        <li><b>Local-first desktop</b><span>Offline-first POS apps in Tauri, synced over LAN mesh and a cloud hub on HakoDB.</span></li>
+        <li><b>Education platforms</b><span>React and Angular frontends over PHP and Node backends, running for a university faculty and chemistry-learning tools.</span></li>
+        <li><b>Before</b><span>PHP backends, Angular dashboards, Windows tools in Pascal and Lazarus.</span></li>
+      </ul>
+    </section>
 
-    <h3>Older work</h3>
-    <a class="project" href="https://app.chemedu.site">
-      <img class="shot" src="assets/chembs.png" alt="ChemBS app screenshot" loading="lazy">
-      <div class="name">ChemBS <span class="arrow">↗</span></div>
-      <div class="desc">Chemistry education app, chemserver backend (pre-AI era).</div>
-    </a>
-    <a class="project" href="https://silangkau.fkip.untan.ac.id">
-      <img class="shot" src="assets/silangkau.png" alt="Silangkau site screenshot" loading="lazy">
-      <div class="name">Silangkau <span class="arrow">↗</span></div>
-      <div class="desc">Academic site for FKIP Untan (pre-AI era).</div>
-    </a>
-  </section>
+    <footer>
+      <ul class="social">
+        <li><a href="https://github.com/rizaptk" aria-label="GitHub"><img src="https://cdn.simpleicons.org/github/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+        <li><a href="https://x.com/rizaptk" aria-label="X (Twitter)"><img src="https://cdn.simpleicons.org/x/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+        <li><a href="https://www.instagram.com/longija" aria-label="Instagram"><img src="https://cdn.simpleicons.org/instagram/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+        <li><a href="https://www.facebook.com/rizapontianak" aria-label="Facebook"><img src="https://cdn.simpleicons.org/facebook/94a3b8" alt="" width="18" height="18" loading="lazy"></a></li>
+      </ul>
+      <p><a href="https://github.com/rizaptk">github.com/rizaptk</a> <span class="sep">·</span> <a href="https://github.com/hakodb">github.com/hakodb</a></p>
+      <p class="fine">© 2026 Riza</p>
+    </footer>
 
-  <footer>
-    <a href="https://github.com/rizaptk">GitHub</a>
-  </footer>
-
-</div>
+  </div>
+  <script src="main.js"></script>
 </body>
 </html>
