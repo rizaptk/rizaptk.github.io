@@ -2,7 +2,7 @@
 
 // 1) Scroll reveals: transform/opacity only, fires once. CSS keeps reduced motion safe.
 (function () {
-  const els = document.querySelectorAll('.hero > *, .stats, section > *:not(.reveal)');
+  const els = document.querySelectorAll('.hero > *, section > *:not(.reveal)');
   const show = el => { el.classList.add('reveal', 'is-in'); };
   if (!('IntersectionObserver' in window)) { els.forEach(show); return; }
   const io = new IntersectionObserver(entries => {
